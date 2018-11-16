@@ -1,0 +1,77 @@
+/*======reset css======*/
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei",sans-serif;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+/*======modal css======*/
+
+/*插画页面*/
+
+.mouse{
+    position: absolute;
+    width: 26px;
+    height: 46px;
+    border: 2px solid white;
+    border-radius:20px;
+    left:50%;
+    margin-left: -13px;
+    margin-top: 800px;
+}
+.mouse .dot{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 10px;
+    animation: dot01 1s ease infinite alternate ;
+}
+
+@keyframes dot01 {
+    from{}
+    to{
+        /*上下移动*/
+        transform: translateY(20px)
+    }
+}
+
+/*插画页面*/
+.homepage{
+    width: 100%;
+}
+.homepage_box{
+    width: 100%;
+    position: relative;
+}
+.homepage_box .bg{
+    height:1000px;
+    width: 100%;
+    background: url("../images/background.png") no-repeat center/cover;
+}
+.videoBox{
+    width: 100%;
+    display: block;
+    background: white;
+}
+.videoBox video{
+    width: 100%;
+}
+.work .imgBox{
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+.imgBox img{
+    width: 100%;
+}
